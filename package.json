@@ -2,7 +2,7 @@
   "name": "pokemanbackend",
   "version": "1.0.0",
   "description": "pokeman",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
