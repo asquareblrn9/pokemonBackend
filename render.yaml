@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pokedex-backend
+    env: node
+    rootDir: backend
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
+    disk:
+      name: pokedex-db
+      mountPath: /var/data
+      sizeGB: 1
+    autoDeploy: true
